@@ -1,13 +1,13 @@
-# README
-## This is the README for your extension "nix"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Nix:
+Na mitologia grega, Nix era uma deusa primordial, a personificação da noite. 
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## Informação:
+Este tema abrange suporte apenas a algumas linguagens, sendo estas: JavaScript, Golang, Rust, Elixir.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### Fonte.
+Não inclui fonte, por se tratar de uma preferência pessoal. A que uso (que é vista nas imagens acima) é a [JetBrains Mono](https://www.jetbrains.com/pt-pt/lp/mono). 
 
-**Enjoy!**
+## Contribuições:
+Fico feliz que queira realizar contribuições para este tema, porém, antes de realizá-las, [leia o guia de contribuição](CONTRIBUTING.md).
+## Agradecimentos:
+Agradeço a [Sarah Drasner](https://twitter.com/sarah_edo), seu [tutorial](https://css-tricks.com/creating-a-vs-code-theme) foi de grande ajuda para a realização trabalho.
