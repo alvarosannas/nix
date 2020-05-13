@@ -213,10 +213,134 @@
 				"keyword.operator.logical.js",
 				"keyword.operator.comparison.js",
 				"storage.type.function.arrow.js",
+				"keyword.operator.accessor.js",
+				"keyword.operator.spread.js",
+				"keyword.operator.js",
+				"source.js",
 			],
 			"settings": {
-				"foreground": "#FF0000",
-				"fontStyle": "bold"
+				"foreground": "#E8547C",
+			}
+		},
+
+		{
+			"name": "White",
+			"scope":[
+				"punctuation.definition.string.begin.js",
+				"punctuation.definition.string.end.js",
+				"meta.delimiter.comma.js",
+				"punctuation.terminator.statement.js",
+				"punctuation.definition.quasi.begin.js",
+				"punctuation.definition.quasi.end.js",
+				"punctuation.separator.key-value.js",
+			],
+			"settings": {
+				"foreground": "#FAFAFA",
+			}
+		},
+
+		{
+			"name": "Purple",
+			"scope":[
+				"storage.type.js",
+				"storage.type.function.js",
+				"keyword.control.flow.js",
+				"keyword.control.trycatch.js",
+				"storage.type.class.js",
+				"storage.type.extends.js",
+				"variable.language.this.js",
+				"keyword.control.switch.js",
+				"keyword.control.loop.js",
+				"keyword.control.module.js",
+				"keyword.control.conditional.js",
+			],
+			"settings": {
+				"foreground": "#A684EB",
+			},
+		},
+
+		{
+			"name": "Light Yellow",
+			"scope":[
+				"variable",
+				"entity.name.class.js",
+				"constant.other.object.key.js",
+				"support.type.object.console.js"
+			],
+			"settings": {
+				"foreground": "#FFE391",
+			}
+		},
+
+		{
+			"name": "Ocean Blue",
+			"scope":[
+				"entity.name.function.js",
+				"entity.name.type.instance.js",
+				"support.function.mutator.js",
+				"punctuation.quasi.element.begin.js",
+				"punctuation.quasi.element.end.js",
+			],
+			"settings": {
+				"foreground": "#22A5F1",
+			}
+		},
+
+		{
+			"name": "Light Green",
+			"scope":[
+				"entity.name.function.method.js",
+				"support.function.console.js",
+				"variable.other.object.js",
+				"support.class.builtin.js"
+			],
+			"settings": {
+				"foreground": "#46E4A5",
+			}
+		},
+
+		{
+			"name": "New",
+			"scope":[
+				"keyword.operator.new.js",
+			],
+			"settings": {
+				"foreground": "#F07567",
+			}
+		},
+
+		{
+			"name": "Grey",
+			"scope":[
+				"string.quoted.double.js",
+				"string.quoted.single.js",
+				"string.quoted.module.js",
+				"string.quoted.template.js",
+			],
+			"settings": {
+				"foreground": "#A5B6C4",
+				"fontStyle": "italic"
+			}
+		},
+
+		{
+			"name": "Numeric",
+			"scope":[
+				"constant.numeric.js",
+				"constant.language.boolean.true.js"
+			],
+			"settings": {
+				"foreground": "#22A5F1",
+			}
+		},
+
+		{
+			"name": "Light Orange",
+			"scope":[
+				"variable.other.property.js"
+			],
+			"settings": {
+				"foreground": "#FFAB82",
 			}
 		},
 	]
