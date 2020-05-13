@@ -185,20 +185,39 @@
 		// Breadcrumbs:
 		"breadcrumb.background": "#1A1A1A",
 		"breadcrumb.foreground": "#808080"
-
-
-
-
-
-
-
-
-
-
-
-
 	},
-	"tokenColors": [
 	
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope":[
+				"comment",
+				"comment.block",
+				"comment.block.documentation",
+				"comment.line",
+			],
+			"settings": {
+				"foreground": "#808080",
+				"fontStyle": "italic"
+			}
+		},
+		/* -- JavaScript -- */
+
+		{
+			"name": "Operators",
+			"scope":[
+				"keyword.operator.assignment.js",
+				"keyword.operator.arithmetic.js",
+				"keyword.operator.bitwise.js",
+				"keyword.operator.relational.js",
+				"keyword.operator.logical.js",
+				"keyword.operator.comparison.js",
+				"storage.type.function.arrow.js",
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
 	]
 }
