@@ -546,5 +546,159 @@
 				"foreground": "#46E4A5",
 			}
 		},
+
+		
+		/* -- TypeScript -- */
+
+		{
+			"name": "Operators",
+			"scope":[
+				"keyword.operator.assignment.ts",
+				"keyword.operator.arithmetic.ts",
+				"keyword.operator.bitwise.ts",
+				"keyword.operator.relational.ts",
+				"keyword.operator.logical.ts",
+				"keyword.operator.comparison.ts",
+				"storage.type.function.arrow.ts",
+				"keyword.operator.accessor.ts",
+				"keyword.operator.spread.ts",
+				"keyword.operator.ts",
+				"source.ts",
+				"keyword.operator.decrement.ts",
+				"keyword.operator.increment.ts",
+			],
+			"settings": {
+				"foreground": "#E8547C",
+			}
+		},
+
+		{
+			"name": "White",
+			"scope":[
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.end.ts",
+				"meta.delimiter.comma.ts",
+				"punctuation.terminator.statement.ts",
+				"punctuation.definition.quasi.begin.ts",
+				"punctuation.definition.quasi.end.ts",
+				"punctuation.separator.key-value.ts",
+				"keyword.operator.type.annotation.ts",
+				"punctuation.separator.comma.ts"
+			],
+			"settings": {
+				"foreground": "#FAFAFA",
+			}
+		},
+
+		{
+			"name": "Purple",
+			"scope":[
+				"storage.type.ts",
+				"storage.type.function.ts",
+				"keyword.control.flow.ts",
+				"keyword.control.trycatch.ts",
+				"storage.type.class.ts",
+				"storage.type.extends.ts",
+				"variable.language.this.ts",
+				"keyword.control.switch.ts",
+				"keyword.control.loop.ts",
+				"keyword.control.module.ts",
+				"keyword.control.conditional.ts",
+				"storage.type.type.ts",
+				"support.type.primitive.ts",
+				"entity.name.type.ts",
+				"support.type.builtin.ts"
+			],
+			"settings": {
+				"foreground": "#A684EB",
+			},
+		},
+
+		{
+			"name": "Light Yellow",
+			"scope":[
+				"variable",
+				"entity.name.class.ts",
+				"constant.other.object.key.ts",
+				"support.type.object.console.ts",
+				"entity.name.type.alias.ts",
+				"meta.object-literal.key.ts",
+			],
+			"settings": {
+				"foreground": "#FFE391",
+			}
+		},
+
+		{
+			"name": "Blue",
+			"scope":[
+				"entity.name.function.ts",
+				"entity.name.type.instance.ts",
+				"support.function.mutator.ts",
+				"punctuation.quasi.element.begin.ts",
+				"punctuation.quasi.element.end.ts",
+			],
+			"settings": {
+				"foreground": "#22A5F1",
+			}
+		},
+
+		{
+			"name": "Light Green",
+			"scope":[
+				"entity.name.function.method.ts",
+				"support.function.console.ts",
+				"variable.other.object.ts",
+				"support.class.builtin.ts"
+			],
+			"settings": {
+				"foreground": "#46E4A5",
+			}
+		},
+
+		{
+			"name": "New",
+			"scope":[
+				"keyword.operator.new.ts",
+			],
+			"settings": {
+				"foreground": "#F07567",
+			}
+		},
+
+		{
+			"name": "Grey",
+			"scope":[
+				"string.quoted.double.ts",
+				"string.quoted.single.ts",
+				"string.quoted.module.ts",
+				"string.quoted.template.ts",
+			],
+			"settings": {
+				"foreground": "#A5B6C4",
+				"fontStyle": "italic"
+			}
+		},
+
+		{
+			"name": "Numeric",
+			"scope":[
+				"constant.numeric.ts",
+				"constant.language.boolean.true.ts"
+			],
+			"settings": {
+				"foreground": "#22A5F1",
+			}
+		},
+
+		{
+			"name": "Light Orange",
+			"scope":[
+				"variable.other.property.ts"
+			],
+			"settings": {
+				"foreground": "#FFAB82",
+			}
+		},
 	]
 }
