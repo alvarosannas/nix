@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "author": "Alvaro Santana",
     "publisher":"AlvaroSannas",
-    "icon": "https://i.postimg.cc/h40mGF92/icon.png",
+    "icon": "icon.png",
     "repository": {
         "type":"git",
         "url": "https://github.com/alvarosannas/nix"
