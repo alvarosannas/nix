@@ -3,9 +3,20 @@
     "displayName": "Nix",
     "description": "A dark theme for VS Code.",
     "version": "0.0.1",
+    "author": "Alvaro Santana",
+    "publisher":"alvarosannas",
+    "icon": "https://i.postimg.cc/h40mGF92/icon.png",
+    "repository": {
+        "type":"git",
+        "url": "https://github.com/alvarosannas/nix"
+    },
     "engines": {
         "vscode": "^1.45.0"
     },
+    "keywords": [
+        "night",
+        "dark"
+    ],
     "categories": [
         "Themes"
     ],
@@ -14,7 +25,7 @@
             {
                 "label": "Nix",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Nix-color-theme.json"
+                "path": "./themes/nix-color-theme.json"
             }
         ]
     }
