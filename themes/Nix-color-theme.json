@@ -205,7 +205,7 @@
 		/* -- JavaScript -- */
 
 		{
-			"name": "Operators",
+			"name": "Pink",
 			"scope":[
 				"keyword.operator.assignment.js",
 				"keyword.operator.arithmetic.js",
@@ -263,7 +263,7 @@
 		},
 
 		{
-			"name": "Light Yellow",
+			"name": "Yellow",
 			"scope":[
 				"variable",
 				"entity.name.class.js",
@@ -283,6 +283,8 @@
 				"support.function.mutator.js",
 				"punctuation.quasi.element.begin.js",
 				"punctuation.quasi.element.end.js",
+				"constant.numeric.js",
+				"constant.language.boolean.true.js"
 			],
 			"settings": {
 				"foreground": "#22A5F1",
@@ -290,7 +292,7 @@
 		},
 
 		{
-			"name": "Light Green",
+			"name": "Green",
 			"scope":[
 				"entity.name.function.method.js",
 				"support.function.console.js",
@@ -313,7 +315,7 @@
 		},
 
 		{
-			"name": "Grey",
+			"name": "String",
 			"scope":[
 				"string.quoted.double.js",
 				"string.quoted.single.js",
@@ -321,24 +323,12 @@
 				"string.quoted.template.js",
 			],
 			"settings": {
-				"foreground": "#A5B6C4",
-				"fontStyle": "italic"
+				"foreground": "#FFE391",
 			}
 		},
 
 		{
-			"name": "Numeric",
-			"scope":[
-				"constant.numeric.js",
-				"constant.language.boolean.true.js"
-			],
-			"settings": {
-				"foreground": "#22A5F1",
-			}
-		},
-
-		{
-			"name": "Light Orange",
+			"name": "Orange",
 			"scope":[
 				"variable.other.property.js"
 			],
@@ -397,7 +387,7 @@
 		},
 
 		{
-			"name": "Dark Pink",
+			"name": "Pink",
 			"scope":[
 				"keyword.operator.comparison.go",
 				"keyword.operator.assignment.go",
@@ -415,15 +405,14 @@
 		},
 
 		{
-			"name": "Grey",
+			"name": "String",
 			"scope":[
 				"entity.name.import.go",
 				"constant.other.rune.go",
 				"string.quoted.double.go",
 			],
 			"settings": {
-				"foreground": "#A5B6C4",
-				"fontStyle": "italic"
+				"foreground": "#FFE391",
 			}
 		},
 
@@ -470,7 +459,8 @@
 			"name": "Blue",
 			"scope":[
 				"entity.name.function.elixir",
-				"punctuation.section.embedded.elixir"
+				"punctuation.section.embedded.elixir",
+				"constant.numeric.elixir",
 			],
 			"settings": {
 				"foreground": "#22A5F1",
@@ -483,10 +473,24 @@
 				"punctuation.separator.method.elixir",
 				"punctuation.definition.constant.elixir",
 				"punctuation.definition.constant.elixir",
-				"keyword.operator.assignment.elixir"
+				"keyword.operator.assignment.elixir",
+				"keyword.operator.comparison.elixir",
+				"keyword.operator.logical.elixir",
+				"keyword.operator.arithmetic.elixir",
 			],
 			"settings": {
 				"foreground": "#E8547C",
+			}
+		},
+
+		{
+			"name": "Methods Elixir",
+			"scope": [
+				"variable.language.elixir"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#E8547C"
 			}
 		},
 
@@ -515,14 +519,13 @@
 		},
 
 		{
-			"name": "Grey",
+			"name": "String",
 			"scope":[
 				"string.quoted.double.elixir",
 				"string.quoted.single.elixir",
 			],
 			"settings": {
-				"foreground": "#A5B6C4",
-				"fontStyle": "italic"
+				"foreground": "#FFE391",
 			}
 		},
 
@@ -551,7 +554,7 @@
 		/* -- TypeScript -- */
 
 		{
-			"name": "Operators",
+			"name": "Pink",
 			"scope":[
 				"keyword.operator.assignment.ts",
 				"keyword.operator.arithmetic.ts",
@@ -615,7 +618,7 @@
 		},
 
 		{
-			"name": "Light Yellow",
+			"name": "Yellow",
 			"scope":[
 				"variable",
 				"entity.name.class.ts",
@@ -637,6 +640,8 @@
 				"support.function.mutator.ts",
 				"punctuation.quasi.element.begin.ts",
 				"punctuation.quasi.element.end.ts",
+				"constant.numeric.ts",
+				"constant.language.boolean.true.ts"
 			],
 			"settings": {
 				"foreground": "#22A5F1",
@@ -644,7 +649,7 @@
 		},
 
 		{
-			"name": "Light Green",
+			"name": "Green",
 			"scope":[
 				"entity.name.function.method.ts",
 				"support.function.console.ts",
@@ -667,7 +672,7 @@
 		},
 
 		{
-			"name": "Grey",
+			"name": "String",
 			"scope":[
 				"string.quoted.double.ts",
 				"string.quoted.single.ts",
@@ -675,24 +680,12 @@
 				"string.quoted.template.ts",
 			],
 			"settings": {
-				"foreground": "#A5B6C4",
-				"fontStyle": "italic"
+				"foreground": "#FFE391",
 			}
 		},
 
 		{
-			"name": "Numeric",
-			"scope":[
-				"constant.numeric.ts",
-				"constant.language.boolean.true.ts"
-			],
-			"settings": {
-				"foreground": "#22A5F1",
-			}
-		},
-
-		{
-			"name": "Light Orange",
+			"name": "Orange",
 			"scope":[
 				"variable.other.property.ts"
 			],
@@ -700,5 +693,139 @@
 				"foreground": "#FFAB82",
 			}
 		},
+
+		/* -- HTML -- */
+
+		{
+			"name": "White",
+			"scope":[
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.separator.key-value.html",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html",
+			],
+			"settings": {
+				"foreground": "#FAFAFA",
+			}
+		},
+
+		{
+			"name": "Yellow",
+			"scope":[
+				"entity.name.tag.html",
+			],
+			"settings": {
+				"foreground": "#FFE391",
+			}
+		},
+
+		{
+			"name": "String",
+			"scope":[
+				"string.quoted.double.html",
+				"string.quoted.single.html",
+			],
+			"settings": {
+				"foreground": "#FFE391",
+			}
+		},
+
+		{
+			"name": "Purple",
+			"scope":[
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#A684EB",
+			}
+		},
+
+		{
+			"name": "Grey",
+			"scope":[
+				"text.html.derivative"
+			],
+			"settings": {
+				"foreground": "#A5B6C4",
+			}
+		},
+
+		/* -- CSS -- */
+
+		{
+			"name": "White",
+			"scope":[
+				"punctuation.separator.key-value.css",
+				"punctuation.terminator.rule.css",
+				"punctuation.definition.string.begin.css",
+				"punctuation.definition.string.end.css",
+				"punctuation.definition.constant.css",
+				"punctuation.definition.entity.css",
+				"entity.name.tag.wildcard.css",
+				"keyword.operator.combinator.css",
+				"keyword.operator.arithmetic.css",
+				"keyword.operator.logical.css",
+				"keyword.operator.comparison.css",
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.class.css"
+
+			],
+			"settings": {
+				"foreground": "#FAFAFA",
+			}
+		},
+
+		{
+			"name": "Yellow",
+			"scope":[
+				"entity.name.tag.css",
+				"support.constant.media.css",
+				"constant.numeric.css",
+				"support.constant.property-value.css",
+				"constant.other.color.rgb-value.hex.css",
+				"string.quoted.single.css",
+				"string.quoted.double.css",
+				"meta.property-value.css",
+			],
+			"settings": {
+				"foreground": "#FFE391",
+			}
+		},
+
+		{
+			"name": "Purple",
+			"scope":[
+				"keyword.control.at-rule",
+				"entity.other.keyframe-offset.css",
+				"keyword.operator.logical.and.media.css",
+				"support.type.property-name.media.css",
+				"support.type.property-name.css",
+				"meta.property-name.css",
+			],
+			"settings": {
+				"foreground": "#A684EB",
+			}
+		},
+
+		{
+			"name": "Blue",
+			"scope":[
+				"entity.other.attribute-name.pseudo-class.css",
+				"support.function.transform.css",
+				"support.function.calc.css",
+				"suport.function.css",
+				"support.function.misc.css",
+				"support.function.timing-function.css",
+				"entity.other.keyframe-offset.percentage.css",
+				"support.function.url.css",
+				"support.function.gradient.css",
+				"support.function.shape.css"
+			],
+			"settings": {
+				"foreground": "#22A5F1",
+			}
+		},
+		
 	]
 }
