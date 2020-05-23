@@ -437,8 +437,6 @@
 				"punctuation.definition.string.end.jsx",
 				"punctuation.definition.tag.jsx",
 				"keyword.operator.assignment.jsx",
-				"punctuation.section.embedded.begin.jsx",
-				"punctuation.section.embedded.end.jsx"
 			],
 			"settings": {
 				"foreground": "#FAFAFA",
