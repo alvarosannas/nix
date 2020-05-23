@@ -218,7 +218,6 @@
 			"name": "Punctuation",
 			"scope":[
 				"punctuation.definition.string.begin.js",
-				"punctuation.definition.string.end.js",
 				"punctuation.definition.quasi.begin.js",
 				"punctuation.definition.quasi.end.js",
 				"punctuation.separator.key-value.js",
@@ -226,6 +225,7 @@
 				"punctuation.terminator.statement.js",
 				"punctuation.quasi.element.begin.js",
 				"punctuation.quasi.element.end.js",
+				"punctuation.definition.string.end.js",
 			],
 			"settings": {
 				"foreground": "#FAFAFA",
@@ -436,7 +436,9 @@
 				"punctuation.definition.string.begin.jsx",
 				"punctuation.definition.string.end.jsx",
 				"punctuation.definition.tag.jsx",
-				"keyword.operator.assignment.jsx"
+				"keyword.operator.assignment.jsx",
+				"punctuation.section.embedded.begin.jsx",
+				"punctuation.section.embedded.end.jsx"
 			],
 			"settings": {
 				"foreground": "#FAFAFA",
