@@ -323,6 +323,7 @@
 			"scope":[
 				"support.type.object.dom.js",
 				"support.type.object.module.js",
+				"support.type.object.process.js",
 			],
 			"settings": {
 				"foreground": "#FF53BF",
@@ -516,6 +517,9 @@
 				"keyword.control.as.ts",
 				"keyword.control.conditional.ts",
 				"variable.object.property.ts",
+				"keyword.control.export.ts",
+				"keyword.control.default.ts",
+				"storage.type.namespace.ts",
 			],
 			"settings": {
 				"foreground": "#A978FF",
@@ -550,6 +554,8 @@
 				"string.quoted.double.ts",
 				"string.quoted.single.ts",
 				"string.template.ts",
+				"entity.name.type.module.ts",
+				"variable.other.constant.property.ts",
 			],
 			"settings": {
 				"foreground": "#FFE391",
@@ -572,6 +578,7 @@
 			"name": "Light Pink",
 			"scope":[
 				"variable.other.object.ts",
+				"entity.name.type.module.ts",
 			],
 			"settings": {
 				"foreground": "#FF53BF",
@@ -1477,24 +1484,13 @@
 				"variable.css",
 				"variable.parameter.keyframe-list.css",
 				"constant.other.color.rgb-value.hex.css",
-			],
-			"settings": {
-				"foreground": "#FFE391",
-			}
-		},
-
-		{
-			"name": "Yellow Italic",
-			"scope":[
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.id.css",
 			],
 			"settings": {
 				"foreground": "#FFE391",
-				"fontStyle": "italic",
 			}
 		},
-
 		
 		{
 			"name": "Orange",
@@ -1505,7 +1501,6 @@
 			],
 			"settings": {
 				"foreground": "#E83C6A",
-				"fontStyle": "italic"
 			}
 		},
 
@@ -1522,7 +1517,6 @@
 			],
 			"settings": {
 				"foreground": "#22A5F1",
-				"fontStyle": "italic"
 			}
 		},
 
