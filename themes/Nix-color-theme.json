@@ -1386,8 +1386,93 @@
 				"foreground": "#E83C6A",
 			}
 		},
+		// Lua:
+		{
+			"name": "White",
+			"scope":[
+				"source.lua",
+				"punctuation.definition.string.begin.lua",
+				"punctuation.definition.string.end.lua",
 
-		/* -- HTML -- */
+			],
+			"settings": {
+				"foreground": "#FAFAFA",
+			}
+		},
+
+		{
+			"name": "Purple",
+			"scope":[
+				"keyword.control.lua",
+				"keyword.operator.lua",
+				"keyword.local.lua",
+				
+			],
+			"settings": {
+				"foreground": "#A978FF",
+			
+			}
+		},
+
+		{
+			"name": "Yellow",
+			"scope":[
+				"string.quoted.double.lua",
+				"string.quoted.single.lua",
+				"variable.other.lua",
+				"variable.parameter.function.lua",
+				"string.quoted.other.multiline.lua",
+			],
+			"settings": {
+				"foreground": "#FFE391",
+			}
+		},
+
+		{
+			"name": "Blue",
+			"scope":[
+				"entity.name.function.lua",
+				"support.function.lua",
+				"support.function.library.lua",
+				"constant.numeric.integer.lua",
+				"constant.numeric.float.lua",
+			],
+			"settings": {
+				"foreground": "#22A5F1",
+			}
+		},
+
+		{
+			"name": "Pink",
+			"scope":[
+				"constant.language.lua",
+			],
+			"settings": {
+				"foreground": "#E83C6A",
+			}
+		},
+
+		{
+			"name": "Light Pink",
+			"scope":[
+				"variable.language.self.lua",
+			],
+			"settings": {
+				"foreground": "#FF53BF",
+			}
+		},
+
+		{
+			"name": "Orange",
+			"scope":[
+				"entity.name.class.lua",
+			],
+			"settings": {
+				"foreground": "#EC986F",
+			}
+		},
+
+		// HTML: 
 		{
 			"name": "White",
 			"scope":[
