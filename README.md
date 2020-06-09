@@ -6,7 +6,7 @@ Assim como a deusa primordial na mitologia grega, este tema personifica à noite
 ![Paleta](https://i.postimg.cc/rpYC965X/paleta.png)
 
 ### Informação:
-Este tema até o momento suporta as seguintes linguagens: JavaScript, TypeScript, Elixir, Golang, Rust, Ruby, Python, Java e PHP. Outras linguagens serão incluídas em futuras atualizações.
+Este tema até o momento suporta as seguintes linguagens: JavaScript, TypeScript, Elixir, Golang, Rust, Ruby, Python, Java, Lua e PHP. Outras linguagens serão incluídas em futuras atualizações.
 
 ![Theme](https://i.postimg.cc/4NvNP0QQ/theme.png)
 
