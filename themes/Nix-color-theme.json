@@ -825,7 +825,8 @@
 {
 		"name": "Markup headings",
 		"scope": [
-				"markup.heading"
+				"markup.heading",
+				"entity.name.section.markdown"
 		],
 		"settings": {
 				"fontStyle": "bold",
