@@ -502,10 +502,20 @@
 	{
 		"name": "Purple",
 		"scope":[
-			"JSXAttrs"
+			"entity.other.attribute-name.jsx"
 		],
 		"settings": {
 			"foreground": "#B185FF",
+		}
+	},
+	{
+		"name": "Grey",
+		"scope":[
+			"JSXNested",
+			"JSXAttrs"
+		],
+		"settings": {
+			"foreground": "#C7C7C7",
 		}
 	},
 	// HTML:
