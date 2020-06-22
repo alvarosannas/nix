@@ -1129,5 +1129,25 @@
 		"foreground": "#C7C7C7",
 	}
 },
+// XML:
+{
+	"name": "White",
+	"scope":[
+		"punctuation.definition.tag.xml",
+		"meta.tag.xml",
+	],
+	"settings": {
+		"foreground": "#FAFAFA",
+	}
+},
+{
+	"name": "Purple",
+	"scope":[
+		"entity.other.attribute-name.localname.xml",
+	],
+	"settings": {
+		"foreground": "#A978FF",
+	}
+},
 ]
 }
