@@ -1079,5 +1079,55 @@
 		"foreground": "#FF53BF",
 	}
 },
+
+// Nunjucks:
+{
+	"name": "White",
+	"scope":[
+		"entity.other.njk.delimiter.tag"
+	],
+	"settings": {
+		"foreground": "#FAFAFA",
+	}
+},
+
+// Pug:
+{
+	"name": "Purple",
+	"scope":[
+		"entity.other.attribute-name.tag.pug"
+	],
+	"settings": {
+		"foreground": "#A978FF",
+	}
+},
+{
+	"name": "Yellow",
+	"scope":[
+		"string.quoted.pug",
+		"entity.other.attribute-name.class.pug"
+	],
+	"settings": {
+		"foreground": "#FFE391",
+	}
+},
+{
+	"name": "White",
+	"scope":[
+		"meta.tag.other"
+	],
+	"settings": {
+		"foreground": "#FAFAFA",
+	}
+},
+{
+	"name": "Grey",
+	"scope":[
+		"text.pug"
+	],
+	"settings": {
+		"foreground": "#C7C7C7",
+	}
+},
 ]
 }
