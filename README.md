@@ -1,20 +1,22 @@
 # Nix:
-Assim como a deusa primordial na mitologia grega, este tema personifica à noite.  
+Like the primordial goddess in Greek mythology, this theme personifies at night.
 
 ### Paleta.
 
 ![Paleta](https://i.postimg.cc/rpYC965X/paleta.png)
 
 ### Informação:
-Este tema abrange as seguintes linguagens: JavaScript, TypeScript, Elixir, Golang, C#, PHP, Lua, Rust, Java, Python e Ruby. Outras linguagens serão acrescentadas em futuras atualizações.
+This theme covers the following languages: JavaScript, TypeScript, Elixir, Golang, C #, PHP, Lua, Rust, Java, Python Julia, Haskell, Swift and Ruby. Other languages ​​will be added in future updates.
 
 
 ![Theme](https://i.postimg.cc/43HXcqH2/theme.png)
 
 ### Fonte.
-Não inclui fonte, por se tratar de uma preferência pessoal. A que uso (que é vista nas imagens acima) é a [JetBrains Mono](https://www.jetbrains.com/pt-pt/lp/mono). 
+
+Don't include font, as it is a personal preference. What use (which is seen in the images above) is [JetBrains Mono](https://www.jetbrains.com/pt-pt/lp/mono). 
 
 ### Contribuições:
-Primeiramente, [leia o guia de contribuição](CONTRIBUTING.md). Embora este tema abranja outras linguagens, ele foi desenvolvido pensando em algumas linguagens específicas, sendo assim, caso a sua não esteja nele, fique à vontade caso queira contribuir e/ou sugerir algo.
+First, [read the contribution guide](CONTRIBUTING.md). Although this theme covers other languages, it was developed thinking about some specific languages, so, if yours is not in it, feel free if you want to contribute and / or suggest something.
+
 ### Agradecimentos:
-Agradeço a [Sarah Drasner](https://twitter.com/sarah_edo), seu [tutorial](https://css-tricks.com/creating-a-vs-code-theme) foi de grande ajuda para a realização trabalho.
+Thanks to [Sarah Drasner](https://twitter.com/sarah_edo), her [tutorial](https://css-tricks.com/creating-a-vs-code-theme) was of great help for the realization job.
