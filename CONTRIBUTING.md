@@ -1,20 +1,20 @@
-# Contribuindo para o Nix.
-Então, gostaria de contribuir para o Nix? Incrível!
+# Contributing to Nix.
+So, would you like to contribute to Nix? Amazing!
 
-No entanto, antes de realizar as alterações, entre em contato para informar ao proprietário do projeto o que está propondo.
-Para tal, crie uma **issues** detalhando claramente as alterações que deseja fazer.
+However, before making changes, contact us to inform the project owner what you are proposing.
+To do this, create a **issues** clearly detailing the changes you want to make.
 
 ---
-## Código de Conduta.
+## Code of conduct.
 ---
-### Regras Básicas:
-* Seja gentil com todos.
-* Trate o próximo como gostaria de ser tratado.
-* Respeite às diferenças.
+### Basic rules:
+* Be kind to everyone.
+* Treat others as you would like to be treated.
+* Respect differences.
 
-### Não Tolerável:
-* Uso de linguagem ou imagem sexual.
-* Trolagem, comentários ofensivos, ataques pessoais ou políticos.
-* Assédio público ou privado.
-* Publicar informações pessoais de uma pessoa, como endereço físico ou eletrônico, sem permissão explítica.
-* Qualquer outra conduta que possa ser considerada inadequada a um ambiente profissional.
+### Not Tolerable:
+* Use of sexual language or image.
+* Scamming, offensive comments, personal or political attacks.
+* Public or private harassment.
+* Publish a person's personal information, such as physical or electronic address, without explicit permission.
+* Any other conduct that may be considered unsuitable for a professional environment.
