@@ -9,7 +9,7 @@ Like the primordial goddess in Greek mythology, this theme personifies at night.
 This theme covers the following languages: JavaScript, TypeScript, Elixir, Golang, C #, PHP, Lua, Rust, Java, Python Julia, Haskell, Swift and Ruby. Other languages ​​will be added in future updates.
 
 
-![Theme](https://i.postimg.cc/43HXcqH2/theme.png)
+![Theme](https://i.postimg.cc/2S9qZWh4/theme.png)
 
 ### Fonte.
 
