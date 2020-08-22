@@ -165,12 +165,12 @@
 		"terminal.ansiYellow":"#FFE391",
 		"terminal.ansiCyan":"#22A5F1",
 		"terminal.ansiBrightBlack": "#626483",
-    	"terminal.ansiBrightRed": "#ed4556",
-    	"terminal.ansiBrightGreen": "#00F769",
-    	"terminal.ansiBrightYellow": "#e7de79",
-    	"terminal.ansiBrightBlue": "#78D1E1",
-    	"terminal.ansiBrightMagenta": "#988bc7",
-    	"terminal.ansiBrightCyan": "#A4FFFF",
+    "terminal.ansiBrightRed": "#ed4556",
+  	"terminal.ansiBrightGreen": "#00F769",
+  	"terminal.ansiBrightYellow": "#e7de79",
+    "terminal.ansiBrightBlue": "#78D1E1",
+  	"terminal.ansiBrightMagenta": "#988bc7",
+  	"terminal.ansiBrightCyan": "#A4FFFF",
 		"terminal.ansiBrightWhite": "#F7F7FB",
 		
 		// Git Colors:
@@ -234,8 +234,6 @@
 		{
 			"name": "Green",
 			"scope":[
-				"support.type",
-				"support.type.primitive",
 				"support.type.builtin",
 				"support.function",
 				"support.function.builtin",
@@ -243,7 +241,18 @@
 			],
 			"settings": {
 				"foreground": "#00D998",
-				"fontStyle": "italic"
+				"fontStyle": "bold"
+			}
+		},
+
+		{
+			"name": "Green",
+			"scope":[
+				"support.type",
+				"support.type.primitive",
+			],
+			"settings": {
+				"foreground": "#00D998",
 			}
 		},
 
@@ -295,7 +304,7 @@
 			"name": "Yellow Italic",
 			"scope":[
 				"meta.function.parameters",
-				"meta.new-class.with-arguments"
+				"variable.parameter.function",
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -364,7 +373,7 @@
 			],
 			"settings": {
 				"foreground": "#E83C6A",
-				"fontStyle": "italic bold"
+				"fontStyle": "bold"
 			}
 		},
 
@@ -761,10 +770,6 @@
 	{
 		"name": "White",
 		"scope":[
-			"punctuation.support.type.property-name.begin.json",
-			"punctuation.support.type.property-name.end.json",
-			"punctuation.definition.string.begin.json",
-			"punctuation.definition.string.end.json",
 			"punctuation.separator.dictionary.key-value.json",
 		],
 		"settings": {
@@ -775,7 +780,9 @@
 	{
 		"name": "Purple",
 		"scope":[
-			"support.type.property-name.json"
+			"support.type.property-name.json",
+			"punctuation.support.type.property-name.begin.json",
+			"punctuation.support.type.property-name.end.json",
 		],
 		"settings": {
 			"foreground": "#A978FF",
@@ -785,7 +792,9 @@
 	{
 		"name": "Yellow",
 		"scope":[
-			"string.quoted.double.json"
+			"string.quoted.double.json",
+			"punctuation.definition.string.begin.json",
+			"punctuation.definition.string.end.json",
 		],
 		"settings": {
 			"foreground": "#FFE391",
