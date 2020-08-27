@@ -227,7 +227,6 @@
 			],
 			"settings": {
 				"foreground": "#22A5F1",
-				"fontStyle": "bold"
 			}
 		},	
 
@@ -238,16 +237,6 @@
 				"support.function",
 				"support.function.builtin",
 				"meta.method.body",
-			],
-			"settings": {
-				"foreground": "#00D998",
-				"fontStyle": "bold"
-			}
-		},
-
-		{
-			"name": "Green",
-			"scope":[
 				"support.type",
 				"support.type.primitive",
 			],
@@ -294,20 +283,11 @@
 				"meta.function-call",
 				"storage.modifier.import",
 				"storage.modifier.package",
-			],
-			"settings": {
-				"foreground": "#FFE391",
-			}
-		},
-
-		{
-			"name": "Yellow Italic",
-			"scope":[
 				"meta.function.parameters",
 				"variable.parameter.function",
 			],
 			"settings": {
-				"fontStyle": "italic"
+				"foreground": "#FFE391",
 			}
 		},
 
@@ -332,7 +312,8 @@
 				"keyword.operator.increment",
 				"keyword.operator.decrement",
 				"punctuation.separator.inheritance",
-				"constant.numeric"
+				"constant.numeric",
+				"keyword.control.flow",
 				
 			],
 			"settings": {
@@ -343,7 +324,6 @@
 		{
 			"name": "Purple Italic",
 			"scope":[
-				"keyword.control.flow",
 				"keyword.other.new",
 				"keyword.operator.new"
 			],
