@@ -244,7 +244,8 @@
 	},
 	{
 		"scope": [
-			"markup.deleted"
+			"markup.deleted",
+			"support.class.builtin",
 		],
 		"settings": {
 			"foreground": "#E83C6A"
@@ -605,16 +606,6 @@
 		}
 	},
 	{
-		"name": "Keyword \"new\"",
-		"scope": [
-			"keyword.control.new",
-			"keyword.operator.new"
-		],
-		"settings": {
-			"fontStyle": "bold"
-		}
-	},
-	{
 		"name": "Language Built-ins",
 		"scope": [
 				"support.type.object.console",
@@ -958,7 +949,6 @@
 			"meta.variable.assignment.destructured.object.coffee variable"
 	],
 	"settings": {
-			"fontStyle": "italic",
 			"foreground": "#EC986F"
 	}
 },
