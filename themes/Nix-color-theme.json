@@ -467,7 +467,7 @@
 			"variable.parameter.function.language.special"
 		],
 		"settings": {
-			"foreground": "#22A5F1",
+			"foreground": "#00D998",
 		}
 	},
 	{
@@ -549,7 +549,7 @@
 			"keyword.operator.function.infix"
 		],
 		"settings": {
-			"foreground": "#22A5F1",
+			"foreground": "#00D998",
 		}
 	},
 	{
@@ -564,7 +564,7 @@
 			"variable.other.readwrite"
 		],
 		"settings": {
-			"foreground": "#FFE391"
+			"foreground": "#EF976D",
 		}
 	},
 	{
@@ -573,7 +573,7 @@
 				"variable.other.property"
 		],
 		"settings": {
-				"foreground": "#EC986F",
+				"foreground": "#22A5F1",
 		}
 	},
 	{
@@ -611,15 +611,7 @@
 				"support.type.object.console",
 		],
 		"settings": {
-				"foreground": "#EC986F"
-		}
-	},
-	{
-		"name": "Langugage Buil-ins Support",
-		"scope":[
-			"support.function.console"
-		],
-		"settings": {
+				"foreground": "#EF976D"
 		}
 	},
 	{
@@ -630,7 +622,7 @@
 			"variable.other.predefined"
 		],
 		"settings": {
-			"foreground": "#22A5F1"
+			"foreground": "#00D998"
 		}
 	},
 	{
@@ -641,7 +633,7 @@
 			"support.type.primitive"
 		],
 		"settings": {
-			"foreground": "#00D998"
+			"foreground": "#00D998",
 		}
 	},
 	{
@@ -738,7 +730,7 @@
 			"constant.other.timestamp"
 		],
 		"settings": {
-			"foreground": "#EC986F"
+			"foreground": "#EF976D"
 		}
 	},
 	{
@@ -1084,7 +1076,7 @@
 		"entity.name.tag"
 	],
 	"settings": {
-		"foreground": "#FFE391"
+		"foreground": "#A978FF",
 	}
 },
 {
@@ -1093,7 +1085,7 @@
 		"entity.other.attribute-name"
 	],
 	"settings": {
-		"foreground": "#A978FF",
+		"foreground": "#00D998",
 	}
 },
 {
@@ -1139,7 +1131,7 @@
 		"support.class.component.close.jsx",
 	],
 	"settings": {
-		"foreground": "#FFE391",
+		"foreground": "#A978FF",
 	}
 },
 
@@ -1149,7 +1141,7 @@
 		"entity.other.attribute-name.jsx"
 	],
 	"settings": {
-		"foreground": "#B185FF",
+		"foreground": "#00D998",
 	}
 },
 {
@@ -1169,7 +1161,6 @@
 		"punctuation.definition.entity.css",
 		"punctuation.terminator.rule.css",
 		"punctuation.separator.key-value.css",
-		
 		"punctuation.definition.string.begin.css",
 		"punctuation.definition.string.end.css",
 		"punctuation.definition.constant.css",
@@ -1177,6 +1168,9 @@
 		"keyword.operator.pattern.css",
 		"punctuation.definition.entity.begin.bracket.square.css",
 		"punctuation.definition.entity.end.bracket.square.css",
+		"punctuation.section.function.begin.bracket.round.css",
+		"punctuation.section.function.end.bracket.round.css",
+	
 	],
 	"settings": {
 		"foreground": "#FAFAFA",
@@ -1194,6 +1188,8 @@
 		"entity.other.attribute-name.css",
 		"entity.name.tag.wildcard.css",
 		"variable.parameter.misc.css",
+		"entity.name.tag.css",
+		
 	],
 	"settings": {
 		"foreground": "#A978FF",
@@ -1206,7 +1202,6 @@
 		"string.quoted.single.css",
 		"string.quoted.double.css",
 		"constant.other.color.rgb-value.hex.css",
-		"entity.name.tag.css",
 		"meta.property-value.css",
 		"variable.css",
 		"variable.parameter.keyframe-list.css",
@@ -1224,13 +1219,15 @@
 		"entity.other.attribute-name.pseudo-class.css",
 		"entity.other.attribute-name.pseudo-element.css",
 		"support.constant.media.css",
+		"entity.other.keyframe-offset.percentage.css",
+		"entity.other.keyframe-offset.css",
 	],
 	"settings": {
 		"foreground": "#E83C6A",
 	}
 },
 {
-	"name": "Blue",
+	"name": "Green",
 	"scope":[
 		"support.function.misc.css",
 		"support.function.url.css",
@@ -1241,14 +1238,14 @@
 		"support.function.gradient.css"
 	],
 	"settings": {
-		"foreground": "#22A5F1",
+		"foreground": "#00D998",
 	}
 },
 {
 	"name": "Light Pink",
 	"scope":[
-		"entity.other.keyframe-offset.percentage.css",
-		"entity.other.keyframe-offset.css",
+		"constant.numeric.css",
+		"keyword.other.unit",
 	],
 	"settings": {
 		"foreground": "#FF53BF",
@@ -1260,19 +1257,10 @@
 		"meta.property-value.css"
 	],
 	"settings": {
-		"foreground": "#EC986F",
+		"foreground": "#EF976D",
 	}
 },
-{
-	"name": "Green",
-	"scope":[
-		"constant.numeric.css",
-		"keyword.other.unit"
-	],
-	"settings": {
-		"foreground": "#00D998",
-	}
-},
+
 // JSON:
 {
 	"name": "White",
@@ -1373,7 +1361,7 @@
 		"support.function.misc.scss"
 	],
 	"settings": {
-		"foreground": "#22A5F1",
+		"foreground": "#00D998",
 	}
 },
 {
@@ -1411,7 +1399,7 @@
 		"meta.property-value.scss"
 	],
 	"settings": {
-		"foreground": "#EC986F",
+		"foreground": "#EF976D",
 	}
 },
 {
