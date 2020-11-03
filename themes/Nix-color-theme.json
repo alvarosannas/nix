@@ -11,6 +11,7 @@
 		// Text Colors:
 	"textCodeBlock.background":"#1A1A1A",
 	"textLink.foreground":"#8F5AEA",
+	"textLink.activeForeground": "#8F5AEA",
 
 		// Button Control:
 	"button.background":"#A978FF",
@@ -1076,7 +1077,7 @@
 		"entity.name.tag"
 	],
 	"settings": {
-		"foreground": "#A978FF",
+		"foreground": "#FFE391",
 	}
 },
 {
@@ -1085,7 +1086,7 @@
 		"entity.other.attribute-name"
 	],
 	"settings": {
-		"foreground": "#00D998",
+		"foreground": "#A978FF",
 	}
 },
 {
@@ -1170,7 +1171,8 @@
 		"punctuation.definition.entity.end.bracket.square.css",
 		"punctuation.section.function.begin.bracket.round.css",
 		"punctuation.section.function.end.bracket.round.css",
-	
+		"entity.other.attribute-name.class.css",
+		"entity.other.attribute-name.id.css",
 	],
 	"settings": {
 		"foreground": "#FAFAFA",
@@ -1187,9 +1189,7 @@
 		"keyword.operator.combinator.css",
 		"entity.other.attribute-name.css",
 		"entity.name.tag.wildcard.css",
-		"variable.parameter.misc.css",
-		"entity.name.tag.css",
-		
+		"variable.parameter.misc.css",		
 	],
 	"settings": {
 		"foreground": "#A978FF",
@@ -1206,8 +1206,7 @@
 		"variable.css",
 		"variable.parameter.keyframe-list.css",
 		"constant.other.color.rgb-value.hex.css",
-		"entity.other.attribute-name.class.css",
-		"entity.other.attribute-name.id.css",
+		"entity.name.tag.css",
 	],
 	"settings": {
 		"foreground": "#FFE391",
