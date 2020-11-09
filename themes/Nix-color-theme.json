@@ -1149,7 +1149,7 @@
 	"name": "Grey",
 	"scope":[
 		"JSXNested",
-		"JSXAttrs"
+		"JSXAttrs",
 	],
 	"settings": {
 		"foreground": "#C7C7C7",
@@ -1423,8 +1423,25 @@
 	}
 },
 
-
-
+// GraphQL
+{
+	"name": "Support Types",
+	"scope":[
+		"support.type.builtin.graphql"
+	],
+	"settings": {
+		"foreground": "#00D998",
+	}
+},
+{
+	"name": "Entity Types",
+	"scope":[
+		"support.type.graphql"
+	],
+	"settings": {
+		"foreground": "#E83C6A",
+	}
+},
 ]
 }
 
