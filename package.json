@@ -2,7 +2,7 @@
     "name": "nix",
     "displayName": "Nix",
     "description": "A simples dark theme for VS Code.",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "author": "Alvaro Santana",
     "publisher":"AlvaroSannas",
     "icon": "icon.png",
@@ -25,7 +25,7 @@
             {
                 "label": "Nix",
                 "uiTheme": "vs-dark",
-                "path": "./themes/nix-color-theme.json"
+                "path": "./themes/Nix-color-theme.json"
             }
         ]
     }
