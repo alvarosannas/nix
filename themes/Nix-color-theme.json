@@ -552,7 +552,7 @@
 				"variable.other.object"
 			],
 			"settings": {
-				"foreground": "#FF80BF"
+				"foreground": "#FF53BF"
 			}
 		},
 		{
@@ -616,7 +616,7 @@
 				"support.type.object.module"
 			],
 			"settings": {
-				"foreground": "#85F2CA",
+				"foreground": "#80FFEA",
 			}
 		},
 		{
