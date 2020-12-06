@@ -138,10 +138,10 @@
 		"pickerGroup.foreground":"#8F7FFA",
 		// Integreted Terminal:
 		"terminal.foreground": "#C7C7C7",
-		"terminal.ansiGreen":"#00D998",
+		"terminal.ansiGreen":"#16D99E",
 		"terminal.ansiMagenta":"#8F7FFA",
-		"terminal.ansiYellow":"#FFE391",
-		"terminal.ansiCyan":"#22A5F1",
+		"terminal.ansiYellow":"#F29D7E",
+		"terminal.ansiCyan":"#E83C6A",
 		"terminal.ansiBrightBlack": "#626483",
 		"terminal.ansiBrightRed": "#ed4556",
 		"terminal.ansiBrightGreen": "#00F769",
@@ -151,10 +151,10 @@
 		"terminal.ansiBrightCyan": "#A4FFFF",
 		"terminal.ansiBrightWhite": "#F7F7FB",
 		// Git Colors:
-		"gitDecoration.addedResourceForeground":"#72A9FA",
+		"gitDecoration.addedResourceForeground":"#01B8FA",
 		"gitDecoration.ignoredResourceForeground":"#887BA6",
 		"gitDecoration.modifiedResourceForeground":"#FFE391",
-		"gitDecoration.untrackedResourceForeground":"#F26D9E",
+		"gitDecoration.untrackedResourceForeground":"#16D99E",
 		// Settings Editor Colors:
 		"settings.headerForeground":"#8F7FFA",
 		"settings.modifiedItemIndicator":"#FFE391",
@@ -438,7 +438,7 @@
 				"constant.regexp"
 			],
 			"settings": {
-				"foreground": "#FF80BF"
+				"foreground": "#FF53BF"
 			}
 		},
 		// CODE
@@ -469,7 +469,7 @@
 				"support.class.builtin",
 			],
 			"settings": {
-				"foreground": "#FF476E",
+				"foreground": "#E83C6A",
 			}
 		},
 		{
@@ -531,7 +531,8 @@
 				"meta.function.arguments variable.other.php",
 				"meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql",
 				"variable.parameter",
-				"variable.other.readwrite"
+				"variable.other.readwrite",
+				"parameter.variable.function"
 			],
 			"settings": {
 				"foreground": "#FFE391"
@@ -593,7 +594,7 @@
 				"support.type.object.console",
 			],
 			"settings": {
-				"foreground": "#F29D7E"
+				"foreground": "#FFE391"
 			}
 		},
 		{
@@ -813,7 +814,7 @@
 				"punctuation.definition.group.capture.regexp"
 			],
 			"settings": {
-				"foreground": "#FF80BF"
+				"foreground": "#FF53BF"
 			}
 		},
 		{
@@ -1083,7 +1084,7 @@
 				"support.class.component"
 			],
 			"settings": {
-				"foreground": "#FF476E"
+				"foreground": "#E83C6A"
 			}
 		},
 		{
