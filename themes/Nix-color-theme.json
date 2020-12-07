@@ -442,6 +442,7 @@
 			}
 		},
 		// CODE
+		// Yellow
 		{
 			"name": "Comments",
 			"scope": [
@@ -463,16 +464,6 @@
 			}
 		},
 		{
-			"name": "Constants",
-			"scope": [
-				"constant.language",
-				"support.class.builtin",
-			],
-			"settings": {
-				"foreground": "#E83C6A",
-			}
-		},
-		{
 			"name": "User-defined class names",
 			"scope": [
 				"entity.name.type.class",
@@ -480,20 +471,6 @@
 			],
 			"settings": {
 				"foreground": "#FFE391",
-			}
-		},
-		{
-			"name": "this, super, self, etc.",
-			"scope": [
-				"keyword.expressions-and-types.swift",
-				"keyword.other.this",
-				"variable.language",
-				"variable.language punctuation.definition.variable.php",
-				"variable.other.readwrite.instance.ruby",
-				"variable.parameter.function.language.special"
-			],
-			"settings": {
-				"foreground": "#00D998",
 			}
 		},
 		{
@@ -506,56 +483,69 @@
 			}
 		},
 		{
-			"name": "Function names",
+			"name": "Variables and object properties",
 			"scope": [
-				"entity.name.function",
-				"meta.function-call.generic",
-				"meta.function-call.object",
-				"meta.function-call.php",
-				"meta.function-call.static",
-				"meta.method-call.java meta.method",
-				"meta.method.groovy",
-				"support.function.any-method.lua",
-				"keyword.operator.function.infix"
+				"variable",
+				"constant.other.key.perl",
+				"support.variable.property",
+				"variable.other.constant.js",
+				"variable.other.constant.ts",
+				"variable.other.constant.tsx",
+				"variable.other.readwrite"
 			],
 			"settings": {
-				"foreground": "#00D998",
+				"foreground": "#FFE391"
 			}
 		},
 		{
-			"name": "Function parameters",
+			"name": "Strings",
 			"scope": [
-				"entity.name.variable.parameter",
-				"meta.at-rule.function variable",
-				"meta.at-rule.mixin variable",
-				"meta.function.arguments variable.other.php",
-				"meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql",
-				"variable.parameter",
-				"variable.other.readwrite",
-				"parameter.variable.function"
+				"string"
 			],
 			"settings": {
-				"foreground": "#F29D7E"
+				"foreground": "#FFE391"
 			}
 		},
 		{
-			"name": "Decorators",
+			"name": "String quotes (temporary vscode fix)",
 			"scope": [
-				"variable.other.property"
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end"
 			],
 			"settings": {
-				"foreground": "#F1B3F1",
+				"foreground": "#FFE391"
 			}
 		},
 		{
-			"name": "Decorator Objects",
-			"scope": [
-				"variable.other.object"
+			"name": "Entity Types",
+			"scope":[
+				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#FF53BF"
+				"foreground": "#FFE391",
 			}
 		},
+		{
+			"name": "Destructuring / aliasing reference name (LHS)",
+			"scope": [
+				"meta.import variable.other.readwrite",
+				"meta.object-binding-pattern-variable variable.object.property",
+				"meta.variable.assignment.destructured.object.coffee variable"
+			],
+			"settings": {
+				"foreground": "#FFE391"
+			}
+		},
+		{
+			"name": "Makefile prerequisite names",
+			"scope": [
+				"meta.scope.prerequisites.makefile"
+			],
+			"settings": {
+				"foreground": "#FFE391"
+			}
+		},
+		// Purple
 		{
 			"name": "Keywords",
 			"scope": [
@@ -589,37 +579,67 @@
 			}
 		},
 		{
-			"name": "Language Built-ins",
+			"name": "Variable interpolation operators",
 			"scope": [
-				"support.type.object.console",
+				"meta.string-contents.quoted.double punctuation.definition.variable",
+				"punctuation.definition.interpolation.begin",
+				"punctuation.definition.interpolation.end",
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded.begin",
+				"punctuation.section.embedded.coffee",
+				"punctuation.section.embedded.end",
+				"punctuation.section.embedded.end source.php",
+				"punctuation.section.embedded.end source.ruby",
+				"punctuation.definition.variable.makefile"
 			],
 			"settings": {
-				"foreground": "#F29D7E"
+				"foreground": "#A978FF"
 			}
 		},
 		{
-			"name": "Built-in magic functions and constants",
+			"name": "Modifiers",
 			"scope": [
-				"support.function.magic",
-				"support.variable",
-				"variable.other.predefined",
-				"support.function",
-				"support.type.property-name",
+				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#00D998"
+				"foreground": "#A978FF"
 			}
 		},
 		{
-			"name": "Built-in functions / properties",
-			"scope": [
-				"support.type.primitive",
-				"support.type.object.module"
+			"name": "Numbers",
+			"scope":[
+				"constant.numeric",
+				"constant.numeric.decimal"
 			],
 			"settings": {
-				"foreground": "#80FFEA",
+				"foreground": "#A978FF",
 			}
 		},
+		{
+			"name": "Keys (serializable languages)",
+			"scope": [
+				"entity.name.function.target.makefile",
+				"entity.name.section.toml",
+				"entity.name.tag.yaml",
+				"variable.other.key.toml"
+			],
+			"settings": {
+				"foreground": "#A978FF"
+			}
+		},
+		{
+			"name": "Property quotes (temporary vscode fix)",
+			"scope": [
+				"punctuation.support.type.property-name.begin",
+				"punctuation.support.type.property-name.end",
+				"meta.object-literal.key",
+			],
+			"settings": {
+				"foreground": "#A978FF"
+			}
+		},
+		// White
 		{
 			"name": "Separators (key/value, namespace, inheritance, pointer, hash, slice, etc)",
 			"scope": [
@@ -677,34 +697,121 @@
 			}
 		},
 		{
-			"name": "Variable interpolation operators",
+			"name": "Destructuring / aliasing variable name (RHS)",
 			"scope": [
-				"meta.string-contents.quoted.double punctuation.definition.variable",
-				"punctuation.definition.interpolation.begin",
-				"punctuation.definition.interpolation.end",
-				"punctuation.definition.template-expression.begin",
-				"punctuation.definition.template-expression.end",
-				"punctuation.section.embedded.begin",
-				"punctuation.section.embedded.coffee",
-				"punctuation.section.embedded.end",
-				"punctuation.section.embedded.end source.php",
-				"punctuation.section.embedded.end source.ruby",
-				"punctuation.definition.variable.makefile"
+				"meta.import variable.other.readwrite.alias",
+				"meta.export variable.other.readwrite.alias",
+				"meta.variable.assignment.destructured.object.coffee variable variable"
 			],
 			"settings": {
-				"foreground": "#A978FF"
+				"foreground": "#F2F2F2"
 			}
 		},
 		{
-			"name": "Keys (serializable languages)",
+			"name": "Edge cases (foreground color resets)",
 			"scope": [
-				"entity.name.function.target.makefile",
-				"entity.name.section.toml",
-				"entity.name.tag.yaml",
-				"variable.other.key.toml"
+				"constant.other.symbol.hashkey.ruby",
+				"keyword.operator.dereference.java",
+				"keyword.operator.navigation.groovy",
+				"meta.scope.for-loop.shell punctuation.definition.string.begin",
+				"meta.scope.for-loop.shell punctuation.definition.string.end",
+				"meta.scope.for-loop.shell string",
+				"storage.modifier.import",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx",
+				"punctuation.section.embedded.begin.jsx",
+				"punctuation.section.embedded.end.jsx",
+				"punctuation.separator.list.comma.css",
+				"constant.language.empty-list.haskell"
 			],
 			"settings": {
-				"foreground": "#A978FF"
+				"foreground": "#F2F2F2"
+			}
+		},
+		// Other Colors
+		{
+			"name": "Constants",
+			"scope": [
+				"constant.language",
+				"support.class.builtin",
+			],
+			"settings": {
+				"foreground": "#E83C6A",
+			}
+		},
+		{
+			"name": "this, super, self, etc.",
+			"scope": [
+				"keyword.expressions-and-types.swift",
+				"keyword.other.this",
+				"variable.language",
+				"variable.language punctuation.definition.variable.php",
+				"variable.other.readwrite.instance.ruby",
+				"variable.parameter.function.language.special"
+			],
+			"settings": {
+				"foreground": "#00D998",
+			}
+		},
+		{
+			"name": "Function names",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call.generic",
+				"meta.function-call.object",
+				"meta.function-call.php",
+				"meta.function-call.static",
+				"meta.method-call.java meta.method",
+				"meta.method.groovy",
+				"support.function.any-method.lua",
+				"keyword.operator.function.infix"
+			],
+			"settings": {
+				"foreground": "#00D998",
+			}
+		},
+		{
+			"name": "Function parameters",
+			"scope": [
+				"entity.name.variable.parameter",
+				"meta.at-rule.function variable",
+				"meta.at-rule.mixin variable",
+				"meta.function.arguments variable.other.php",
+				"meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql",
+				"variable.parameter",
+				"parameter.variable.function"
+			],
+			"settings": {
+				"foreground": "#F29D7E"
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#F1B3F1",
+			}
+		},
+		{
+			"name": "Decorator Objects",
+			"scope": [
+				"variable.other.object"
+			],
+			"settings": {
+				"foreground": "#FF53BF"
+			}
+		},
+		
+		{
+			"name": "Language Built-ins",
+			"scope": [
+				"variable.object.property",
+				"support.type.object.console"
+			],
+			"settings": {
+				"foreground": "#F29D7E"
 			}
 		},
 		{
@@ -715,6 +822,29 @@
 			],
 			"settings": {
 				"foreground": "#F29D7E"
+			}
+		},
+		{
+			"name": "Built-in magic functions and constants",
+			"scope": [
+				"support.function.magic",
+				"support.variable",
+				"variable.other.predefined",
+				"support.function",
+				"support.type.property-name",
+			],
+			"settings": {
+				"foreground": "#00D998"
+			}
+		},
+		{
+			"name": "Built-in functions / properties",
+			"scope": [
+				"support.type.primitive",
+				"support.type.object.module"
+			],
+			"settings": {
+				"foreground": "#80FFEA",
 			}
 		},
 		{
@@ -754,29 +884,6 @@
 			}
 		},
 		{
-			"name": "Variables and object properties",
-			"scope": [
-				"variable",
-				"constant.other.key.perl",
-				"support.variable.property",
-				"variable.other.constant.js",
-				"variable.other.constant.ts",
-				"variable.other.constant.tsx"
-			],
-			"settings": {
-				"foreground": "#FFE391"
-			}
-		},
-		{
-			"name": "Entity Types",
-			"scope":[
-				"entity.name.type"
-			],
-			"settings": {
-				"foreground": "#FFE391",
-			}
-		},
-		{
 			"name": "Generics, templates, and mapped type declarations",
 			"scope": [
 				"entity.name.type.type-parameter",
@@ -785,15 +892,6 @@
 			],
 			"settings": {
 				"foreground": "#E83C6A"
-			}
-		},
-		{
-			"name": "Modifiers",
-			"scope": [
-				"storage.modifier"
-			],
-			"settings": {
-				"foreground": "#A978FF"
 			}
 		},
 		// REGEX
@@ -865,36 +963,6 @@
 			}
 		},
 		{
-			"name": "Strings",
-			"scope": [
-				"string"
-			],
-			"settings": {
-				"foreground": "#FFE391"
-			}
-		},
-		{
-			"name": "String quotes (temporary vscode fix)",
-			"scope": [
-				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end"
-			],
-			"settings": {
-				"foreground": "#FFE391"
-			}
-		},
-		{
-			"name": "Property quotes (temporary vscode fix)",
-			"scope": [
-				"punctuation.support.type.property-name.begin",
-				"punctuation.support.type.property-name.end",
-				"meta.object-literal.key",
-			],
-			"settings": {
-				"foreground": "#A978FF"
-			}
-		},
-		{
 			"name": "Docstrings",
 			"scope": [
 				"string.quoted.docstring.multi",
@@ -904,59 +972,6 @@
 			],
 			"settings": {
 				"foreground": "#887BA6"
-			}
-		},
-		{
-			"name": "Destructuring / aliasing reference name (LHS)",
-			"scope": [
-				"meta.import variable.other.readwrite",
-				"meta.object-binding-pattern-variable variable.object.property",
-				"meta.variable.assignment.destructured.object.coffee variable"
-			],
-			"settings": {
-				"foreground": "#FFE391"
-			}
-		},
-		{
-			"name": "Numbers",
-			"scope":[
-				"constant.numeric",
-				"constant.numeric.decimal"
-			],
-			"settings": {
-				"foreground": "#A978FF",
-			}
-		},
-		{
-			"name": "Destructuring / aliasing variable name (RHS)",
-			"scope": [
-				"meta.import variable.other.readwrite.alias",
-				"meta.export variable.other.readwrite.alias",
-				"meta.variable.assignment.destructured.object.coffee variable variable"
-			],
-			"settings": {
-				"foreground": "#F2F2F2"
-			}
-		},
-		{
-			"name": "Edge cases (foreground color resets)",
-			"scope": [
-				"constant.other.symbol.hashkey.ruby",
-				"keyword.operator.dereference.java",
-				"keyword.operator.navigation.groovy",
-				"meta.scope.for-loop.shell punctuation.definition.string.begin",
-				"meta.scope.for-loop.shell punctuation.definition.string.end",
-				"meta.scope.for-loop.shell string",
-				"storage.modifier.import",
-				"punctuation.section.embedded.begin.tsx",
-				"punctuation.section.embedded.end.tsx",
-				"punctuation.section.embedded.begin.jsx",
-				"punctuation.section.embedded.end.jsx",
-				"punctuation.separator.list.comma.css",
-				"constant.language.empty-list.haskell"
-			],
-			"settings": {
-				"foreground": "#F2F2F2"
 			}
 		},
 		{
@@ -975,15 +990,6 @@
 			],
 			"settings": {
 				"foreground": "#01B8FA"
-			}
-		},
-		{
-			"name": "Makefile prerequisite names",
-			"scope": [
-				"meta.scope.prerequisites.makefile"
-			],
-			"settings": {
-				"foreground": "#FFE391"
 			}
 		},
 		{
@@ -1259,7 +1265,7 @@
 				"source.ignore"
 			],
 			"settings": {
-				"foreground": "#A978FF",
+				"foreground": "#887BA6",
 			}
 		},
 		// EDITOR CONFIG
