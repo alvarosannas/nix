@@ -2,7 +2,7 @@
     "name": "nix",
     "displayName": "Nix",
     "description": "A simples dark theme for VS Code.",
-    "version": "1.1.9",
+    "version": "1.2.0",
     "author": "Alvaro Santana",
     "publisher":"AlvaroSannas",
     "icon": "icon.png",
