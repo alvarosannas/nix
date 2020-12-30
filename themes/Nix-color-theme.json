@@ -140,7 +140,7 @@
 		"terminal.foreground": "#C7C7C7",
 		"terminal.ansiGreen":"#55F2BA",
 		"terminal.ansiMagenta":"#23A8F2",
-		"terminal.ansiYellow":"#F2866D",
+		"terminal.ansiYellow":"#FFE391",
 		"terminal.ansiCyan":"#80FFEA",
 		"terminal.ansiBrightBlack": "#626483",
 		"terminal.ansiBrightRed": "#F26194",
@@ -180,6 +180,7 @@
 				"foreground": "#808080",
 			}
 		},
+		
 		// Functions And Parameters
 		{
 			"name": "Function names",
@@ -207,7 +208,7 @@
 				"meta.function.arguments variable.other.php",
 				"meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql",
 				"variable.parameter",
-				"parameter.variable.function"
+				"parameter.variable.function",
 			],
 			"settings": {
 				"foreground": "#F2866D",
@@ -217,7 +218,7 @@
 		{
 			"name": "Decorators",
 			"scope": [
-				"variable.other.property"
+				"variable.other.property",	
 			],
 			"settings": {
 				"foreground": "#F1B3F1",
@@ -227,7 +228,8 @@
 			"name": "Decorator Objects",
 			"scope": [
 				"variable.other.object",
-				"constant.other.symbol.elixir"
+				"constant.other.symbol.julia",
+				"constant.other.symbol.elixir",
 			],
 			"settings": {
 				"foreground": "#FF53BF",
@@ -239,7 +241,8 @@
 			"scope": [
 				"keyword",
 				"punctuation.definition.keyword",
-				"punctuation.section.embedded"
+				"punctuation.section.embedded",
+				"punctuation.definition.attribute.rust"
 			],
 			"settings": {
 				"foreground": "#A978FF"
@@ -251,7 +254,7 @@
 				"storage",
 				"meta.implementation storage.type.objc",
 				"meta.interface-or-protocol storage.type.objc",
-				"source.groovy storage.type.def"
+				"source.groovy storage.type.def",
 			],
 			"settings": {
 				"foreground": "#A978FF"
@@ -260,7 +263,9 @@
 		{
 			"name": "Modifiers",
 			"scope": [
-				"storage.modifier"
+				"storage.modifier",
+				"punctuation.other.period.go",
+				"punctuation.definition.attribute.rust"
 			],
 			"settings": {
 				"foreground": "#A978FF"
@@ -283,6 +288,7 @@
 			"scope": [
 				"entity.name.type.class",
 				"entity.name.class",
+				"entity.name.package.go",
 				"storage.modifier.import.java"
 			],
 			"settings": {
@@ -337,7 +343,9 @@
 				"variable.other.constant.js",
 				"variable.other.constant.ts",
 				"variable.other.constant.tsx",
-				"variable.other.readwrite"
+				"variable.other.readwrite",
+				"constant.global.julia",
+				"constant.other.caps.rust"
 			],
 			"settings": {
 				"foreground": "#FFE391"
@@ -483,7 +491,9 @@
 				"storage.type.objc",
 				"storage.type.php",
 				"storage.type.haskell",
-				"storage.type.ocaml"
+				"storage.type.ocaml",
+				"entity.name.type.primitive.rust",
+				"support.type.swift"
 			],
 			"settings": {
 				"foreground": "#80FFEA",
@@ -572,7 +582,7 @@
 				"support.type.object.console"
 			],
 			"settings": {
-				"foreground": "#F29D7E"
+				"foreground": "#F2866D"
 			}
 		},
 		{
@@ -582,7 +592,7 @@
 				"constant.other.timestamp"
 			],
 			"settings": {
-				"foreground": "#F29D7E"
+				"foreground": "#F2866D"
 			}
 		},
 		{
@@ -638,7 +648,7 @@
 				"constant.character.escape.backslash.regexp"
 			],
 			"settings": {
-				"foreground": "#FFE391"
+				"foreground": "#F2866D"
 			}
 		},
 		{
@@ -675,7 +685,7 @@
 				"punctuation.definition.group.regexp"
 			],
 			"settings": {
-				"foreground": "#F29D7E"
+				"foreground": "#F2866D"
 			}
 		},
 		{
@@ -733,7 +743,7 @@
 				"meta.preprocessor.haskell"
 			],
 			"settings": {
-				"foreground": "#EC986F"
+				"foreground": "#F2866D"
 			}
 		},
 		// HTML And JSX
@@ -844,9 +854,20 @@
 			}
 		},
 		{
-			"name": "Class And ID Name",
+			"name": "Important CSS",
+			"scope": [
+				"keyword.other.important.css",
+			],
+			"settings": {
+				"foreground": "#E83C6A"
+			}
+		},
+		{
+			"name": "Rule Media",
 			"scope":[
-				"meta.at-rule.media.header.css"
+				"meta.at-rule.media.header.css",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css",
 			],
 			"settings": {
 				"foreground": "#FF53BF",
@@ -870,7 +891,7 @@
 			}
 		},
 		{
-			"name": "Orange",
+			"name": "Yellow",
 			"scope":[
 				"support.constant.property-value.css",
 				"string.quoted.single.css",
@@ -891,8 +912,6 @@
 		{
 			"name": "Light Pink",
 			"scope":[
-				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css",
 				"support.constant.media.css",
 				"entity.other.keyframe-offset.percentage.css",
 				"entity.other.keyframe-offset.css",
@@ -919,12 +938,12 @@
 			}
 		},
 		{
-			"name": "Yellow",
+			"name": "Orange",
 			"scope":[
-				"meta.property-value.css"
+				"meta.property-value.css",
 			],
 			"settings": {
-				"foreground": "#F29D7E",
+				"foreground": "#F2866D",
 			}
 		},
 		{
@@ -933,7 +952,7 @@
 				"meta.attribute-selector.scss"
 			],
 			"settings": {
-				"foreground": "#F29D7E"
+				"foreground": "#F2866D"
 			}
 		},
 		{
@@ -980,6 +999,7 @@
 				"keyword.operator.css",
 				"entity.other.attribute-name.attribute.scss",
 				"source.css.scss",
+				"entity.name.tag.reference.scss"
 			],
 			"settings": {
 				"foreground": "#A978FF",
@@ -992,7 +1012,7 @@
 				"meta.property-value.scss"
 			],
 			"settings": {
-				"foreground": "#F29D7E",
+				"foreground": "#F2866D",
 			}
 		},
 		{
@@ -1209,7 +1229,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#EC986F"
+				"foreground": "#F2866D"
 			}
 		},
 		{
@@ -1262,7 +1282,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#F29D7E"
+				"foreground": "#F2866D"
 			}
 		},
 		{
@@ -1393,7 +1413,8 @@
 			"name": "Braces in markdown blockquotes",
 			"scope": [
 				"markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.begin",
-				"markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.end"
+				"markup.quote.markdown meta.paragraph.markdown punctuation.definition.string.end",
+				"punctuation.definition.metadata.markdown"
 			],
 			"settings": {
 				"foreground": "#F2F2F2"
@@ -1414,7 +1435,7 @@
 				"comment.block.documentation variable"
 			],
 			"settings": {
-				"foreground": "#F29D7E",
+				"foreground": "#F2866D",
 				"fontStyle": "italic"
 			}
 		},
