@@ -13,7 +13,7 @@
 		"textLink.activeForeground": "#00BDFF",
 		// Button Control:
 		"button.background":"#00BDFF",
-		"button.foreground": "#1A1A1A",
+		"button.foreground": "#FFF",
 		// Dropdown Control:
 		"dropdown.background": "#1F1F1F",
 		"dropdown.foreground": "#F2F2F2",
@@ -25,7 +25,7 @@
 		"input.border":"#808080",
 		// Badge:
 		"badge.background": "#00BDFF",
-		"badge.foreground": "#1A1A1A",
+		"badge.foreground": "#FFF",
 		// Progress Bar:
 		"progressBar.background": "#1A1A1A",
 		// List And Trees:
@@ -45,7 +45,7 @@
 		"activityBar.foreground": "#E5E5E5",
 		"activityBar.inactiveForeground":"#808080",
 		"activityBarBadge.background":"#00BDFF",
-		"activityBarBadge.foreground":"#1A1A1A",
+		"activityBarBadge.foreground":"#FFF",
 		// Side Bar:
 		"sideBar.background":"#1F1F1F",
 		"sideBar.foreground":"#E5E5E5",
@@ -90,7 +90,7 @@
 		"merge.commonContentBackground":"#1A1A1A",
 		"merge.commonHeaderBackground": "#1A1A1A",
 		// Panel Colors:
-		"panel.background":"#1F1F1F",
+		"panel.background":"#1F1F1F1F",
 		"panel.dropBorder": "#00BDFF",
 		"panel.border":"#1F1F1F",
 		"panelTitle.activeBorder":"#00BDFF",
@@ -288,7 +288,7 @@
 				"storage.modifier.import.java",
 			],
 			"settings": {
-				"foreground": "#FFB86C",
+				"foreground": "#F1FA8C",
 			}
 		},
 		{
@@ -297,7 +297,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#FFB86C"
+				"foreground": "#F1FA8C"
 			}
 		},
 		{
@@ -306,7 +306,7 @@
 				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#FFB86C",
+				"foreground": "#F1FA8C",
 			}
 		},
 		// Strings

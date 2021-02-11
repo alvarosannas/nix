@@ -1,25 +1,9 @@
 # Description:
 Nix is ​​a dark theme developed for VS Code.
 
-
-## Color Palette:
-
-![Pallete](https://i.postimg.cc/YSHcBHGx/Pallete.png)
-
 ## Syntax Highlight:
 
-### Lua Lang
-
-![Lua](https://i.postimg.cc/7hXdgGms/Lua.png)
-
-### Java 
-
-![Java](https://i.postimg.cc/VvNDP7Wg/Java.png)
-
-### JavaScript and TypeScript
-
-![JavaScript](https://i.postimg.cc/T3bQx5gz/Java-Script.png)
-
+![Highlight](https://i.postimg.cc/9MqRN2LB/theme.png)
 
 ### Note:
 Syntax Highlight also supports other languages ​​such as: Go Lang, Elixir, Ruby, Python, Rust, Julia, PHP among others. Changes in Syntax Highlight may occur in future updates.
