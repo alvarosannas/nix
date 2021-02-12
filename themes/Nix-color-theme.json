@@ -90,7 +90,7 @@
 		"merge.commonContentBackground":"#1A1A1A",
 		"merge.commonHeaderBackground": "#1A1A1A",
 		// Panel Colors:
-		"panel.background":"#1F1F1F1F",
+		"panel.background":"#1F1F1F",
 		"panel.dropBorder": "#00BDFF",
 		"panel.border":"#1F1F1F",
 		"panelTitle.activeBorder":"#00BDFF",
