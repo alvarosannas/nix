@@ -55,7 +55,7 @@
 		"sideBarSectionHeader.foreground": "#808080",
 		// Editor Groups And Tabs:
 		"editorGroupHeader.tabsBackground":"#1F1F1F",
-		"tab.activeBackground":"#00BDFF40",
+		"tab.activeBackground":"#A978FF40",
 		"tab.activeForeground":"#F2F2F2",
 		"tab.inactiveBackground":"#1A1A1A",
 		"tab.inactiveForeground":"#F2F2F2",
@@ -1286,7 +1286,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#FFB86C"
+				"foreground": "#F1FA8C"
 			}
 		},
 		{
@@ -1337,7 +1337,7 @@
 				"markup.underline.link.image"
 			],
 			"settings": {
-				"foreground": "#F1FA8C"
+				"foreground": "#FFB86C"
 			}
 		},
 		{
