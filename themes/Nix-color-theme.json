@@ -114,7 +114,7 @@
 		// Menu Bar:
 		"menu.background": "#1A1A1A",
 		"menu.foreground": "#808080",
-		"menubar.selectionBackground":"#00BDFF40",
+		"menubar.selectionBackground":"#A978FF40",
 		"menubar.selectionForeground":"#F2F2F2",
 		"menu.separatorBackground":"#A978FF",
 		"menu.selectionBackground":"#A978FF40",
