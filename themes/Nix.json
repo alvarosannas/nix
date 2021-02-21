@@ -5,7 +5,6 @@
 		"icon.foreground": "#808080",
 		"widget.shadow": "#000",
 		"focusBorder": "#00BDFF80",
-		"textBlockQuote.background": "#00BDFF",
 
 		"activityBar.background": "#1A1A1A",
 		"activityBar.foreground": "#F8F8F2",
@@ -147,8 +146,8 @@
     "terminal.ansiBrightBlue":"#7cb7ff",
     "terminal.ansiBrightMagenta":"#ff00aa",
     "terminal.ansiBrightCyan":"#00e8c6",
-    "terminalCursor.background": "#23262E",
-    "terminalCursor.foreground": "#FFE66D",
+    "terminalCursor.background": "#F8F8F2",
+    "terminalCursor.foreground": "#00BDFF40",
 
 		"gitDecoration.addedResourceForeground":"#50FA7B",
 		"gitDecoration.ignoredResourceForeground":"#6272A4",
