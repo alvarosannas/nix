@@ -25,7 +25,7 @@
             {
                 "label": "Nix",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Nix-color-theme.json"
+                "path": "./themes/Nix.json"
             }
         ]
     }
